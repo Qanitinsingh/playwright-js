@@ -6,7 +6,7 @@ async learnVariables() {
     // Creates a variable using var and prints its value.
     // var is the older way of declaring variables in JavaScript.
 
-    var company = "OpenAI";
+    var company = "PSD";
     console.log(company);
 }
 
