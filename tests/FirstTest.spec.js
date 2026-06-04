@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-const { chromium } = require('playwright');
+const { firefox } = require('playwright');
 
 test.describe.serial('Basic operations - separate tests', () => {
     test('navigate and get title', async ({ page }) => {

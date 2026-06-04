@@ -1,11 +1,10 @@
-// variables.js
 
-// String
 let username = "Nitin";
 console.log("Username :", username, "| Type :", typeof username);
 
-// Number
 let age = 30;
+let phonenumbers = [1234567890, 9876543210];
+
 console.log("Age      :", age, "| Type :", typeof age);
 
 // Decimal Number
