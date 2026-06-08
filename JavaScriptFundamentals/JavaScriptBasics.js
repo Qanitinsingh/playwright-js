@@ -1,12 +1,16 @@
 class JavaScriptBasics {
+    // instance variable 
 // 1. VARIABLES
 // Variables store data
+// camel case for functions 
+// class pascal case for class name
+
 async learnVariables() {
 
     // Creates a variable using var and prints its value.
     // var is the older way of declaring variables in JavaScript.
 
-    var company = "Hello World";
+    var company = "OpenAI";
     console.log(company);
 }
 
@@ -44,6 +48,9 @@ async learnDataTypes() {
     let name = "Nitin";
     let age = 30;
     let isActive = true;
+    // String name = "Nitin";
+   // int age = 30;
+    //  boolean isActive = true;
 
     console.log(typeof name);
     console.log(typeof age);
